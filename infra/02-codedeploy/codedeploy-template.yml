@@ -24,7 +24,7 @@ Resources:
     Properties:
       ApplicationName: !Ref ApplicationName
       DeploymentGroupName: !Ref DeploymentGroupName
-      ServiceRoleArn: "!!!TODO-ENTER-CODEDEPLOY-IAM-SERVICE-ROLE-ARN!!!"
+      ServiceRoleArn: "arn:aws:iam::343437023511:role/codedeploy-service-role"
 
       DeploymentConfigName: "CodeDeployDefault.AllAtOnce"
 

@@ -1,0 +1,22 @@
+{
+  "Version": "2008-10-17",
+  "Statement": [
+    {
+      "Sid": "eb-af163bf3-d27b-4712-b795-d1e33e331ca4",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::343437023511:role/elasticbeanstalk-instance-profile"
+      },
+      "Action": [
+        "s3:ListBucket",
+        "s3:ListBucketVersions",
+        "s3:GetObject",
+        "s3:GetObjectVersion"
+      ],
+      "Resource": [
+        "arn:aws:s3:::elasticbeanstalk-us-east-1-343437023511",
+        "arn:aws:s3:::elasticbeanstalk-us-east-1-343437023511/resources/environments/*"
+      ]
+    }
+  ]
+}
