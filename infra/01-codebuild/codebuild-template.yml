@@ -6,7 +6,7 @@ Resources:
     Type: AWS::CodeBuild::Project
     Properties:
       Name: python-hello-world-demo
-      ServiceRole: "arn:aws:iam::343437023511:role/cloudformation-service-role"
+      ServiceRole: "arn:aws:iam::343437023511:role/codebuild-service-role"
       Source:
         Type: GITHUB
         Location: "https://github.com/salorozco/python-hello-world.git"
