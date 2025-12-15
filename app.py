@@ -47,7 +47,7 @@ def hello():
         </head>
         <body>
             <div class="container">
-                <h1>Python Hello World ... Version 1.0!</h1>
+                <h1>Python Hello World ... Version 2.0!</h1>
                 <p><strong>Application Name:</strong> {app_name}</p>
                 <p><strong>Deployment Group ID:</strong> {deployment_group_id}</p>
                 <p><strong>Deployment ID:</strong> {deployment_id}</p>
