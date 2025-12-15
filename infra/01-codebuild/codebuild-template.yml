@@ -13,8 +13,8 @@ Resources:
         GitCloneDepth: 1
         InsecureSsl: false
         ReportBuildStatus: false
-      Triggers:
-        Webhook: true
+      # Triggers:
+      #   Webhook: true
       Artifacts:
         Type: S3
         Location: aws-cicd-python-helloworld
