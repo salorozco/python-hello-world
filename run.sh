@@ -13,6 +13,8 @@ else
     echo "No CodeDeploy environment file found at $ENV_FILE"
 fi
 
+yum install python3-pip -y
+
 # 3. Install and Run
 echo "Installing dependencies..."
 python3 -m pip install -r requirements.txt
